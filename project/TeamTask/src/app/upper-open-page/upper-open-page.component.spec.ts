@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OpenPageComponent } from './open-page.component';
+import { UpperOpenPageComponent } from './upper-open-page.component';
 
-describe('OpenPageComponent', () => {
-  let component: OpenPageComponent;
-  let fixture: ComponentFixture<OpenPageComponent>;
+describe('UpperOpenPageComponent', () => {
+  let component: UpperOpenPageComponent;
+  let fixture: ComponentFixture<UpperOpenPageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OpenPageComponent ]
+      declarations: [ UpperOpenPageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OpenPageComponent);
+    fixture = TestBed.createComponent(UpperOpenPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
