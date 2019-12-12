@@ -12,4 +12,8 @@ export class NavBarComponent implements OnInit {
   ngOnInit() {
   }
 
+  do(){
+    alert('liora zona');
+  }
+
 }
