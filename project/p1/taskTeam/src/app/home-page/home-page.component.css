@@ -1,0 +1,8 @@
+
+@media(max-width: var(--breakpoint-md))
+{
+  .btn{
+      color:green;
+  }
+}
+

@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { NavBarComponent } from './home-page/nav-bar/nav-bar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent
+    HomePageComponent,
+    NavBarComponent
    ],
   imports: [
     BrowserModule
