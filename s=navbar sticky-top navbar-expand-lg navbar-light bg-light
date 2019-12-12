@@ -1,0 +1,192 @@
+[33mcommit 957988addc98a1ee6558e21f32dff633c91104a1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: lior9631 <55757487+lior9631@users.noreply.github.com>
+Date:   Thu Dec 12 17:52:55 2019 +0200
+
+    update homePage-NavBar
+
+[33mcommit debb4796ab1cc6c0749c264e1335a608a052dde5[m[33m ([m[1;31mteamTask/master[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: b5d232c 793b240
+Author: lior9631 <55757487+lior9631@users.noreply.github.com>
+Date:   Thu Dec 12 14:01:05 2019 +0200
+
+    Merge branch 'master' of https://github.com/lior9631/TaskTeam
+
+[33mcommit 793b240ff8c4fc310b86529a03ca1ffc4f5a012c[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Thu Dec 12 13:58:12 2019 +0200
+
+    update
+
+[33mcommit b5d232c766a10664acf522520a3e589d4db6b470[m
+Author: lior9631 <55757487+lior9631@users.noreply.github.com>
+Date:   Thu Dec 12 13:56:18 2019 +0200
+
+    install bootstrap
+
+[33mcommit 5e54aa45a580b33a96c4e8b5515a9cf5a9c43d26[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Thu Dec 12 13:53:48 2019 +0200
+
+    update
+
+[33mcommit 971ee5316daff5629b5afa805360e9a510ba00f6[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Thu Dec 12 13:46:14 2019 +0200
+
+    update
+
+[33mcommit 027e30cb4e8352c7727f99d164cbb14c74987614[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Thu Dec 12 12:53:32 2019 +0200
+
+    update
+
+[33mcommit 303d2aa6eb14c9f830d4b0e930ac37a38f7cee1c[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Thu Dec 12 12:37:25 2019 +0200
+
+    update
+
+[33mcommit bdb77b54210b8d8e514b96352948b796320f147f[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Thu Dec 12 12:30:38 2019 +0200
+
+    update
+
+[33mcommit 7ce210e637c9677e42ef565640676bdfe2fc16da[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Thu Dec 12 12:29:49 2019 +0200
+
+    update
+
+[33mcommit 2220d7108eb7c12d0893bf7e3b7bd53db098ff52[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Thu Dec 12 12:20:30 2019 +0200
+
+    update
+
+[33mcommit 69dbb6bfea845297d3b6ebf318c120e089c34789[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Thu Dec 12 12:07:13 2019 +0200
+
+    update
+
+[33mcommit 2d09c3963c2f727c693d3504e15954330f4c6eb2[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Thu Dec 12 12:04:39 2019 +0200
+
+    update
+
+[33mcommit e0a76e927c068e8b8efd4bf03e0ca58f64f5af5b[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Fri Nov 8 17:48:58 2019 +0200
+
+    update the open-page
+
+[33mcommit 44bc2e3002ea32de56d918718614a4e6536595a3[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Fri Nov 8 16:59:47 2019 +0200
+
+    update
+
+[33mcommit e8fe314ea24d8b0904bd27047794189768d2a2b0[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Fri Nov 8 16:48:02 2019 +0200
+
+    update
+
+[33mcommit 62808f74f7b9b4e4b4e67906a7185c7c42eff88f[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Sat Oct 5 22:38:02 2019 +0300
+
+    update
+
+[33mcommit 0c136e0253055350909572c4952b3b6f4a909a1c[m
+Author: root <root@localhost.localdomain>
+Date:   Sat Oct 5 22:02:27 2019 +0300
+
+    liora
+
+[33mcommit 4639ea8f3aa374c9474f6f950cd8060bff84f833[m
+Author: Lior Ganel <lior9631@gmail.com>
+Date:   Fri Oct 4 16:10:22 2019 +0300
+
+    lior
+
+[33mcommit f5415d30bc29d8009594c62d7a2eb7ea15e8ef92[m
+Author: Lior Ganel <lior9631@gmail.com>
+Date:   Fri Oct 4 15:44:55 2019 +0300
+
+    lior
+
+[33mcommit f343c022de12f36fe5fd63400dba778a57dce17c[m
+Merge: e6d68dc 3bfd5fa
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Fri Oct 4 15:37:49 2019 +0300
+
+    angular playlist
+
+[33mcommit e6d68dca5f1ba6a509513eb83369ca1fcbd027df[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Fri Oct 4 15:37:28 2019 +0300
+
+    angular playlist
+
+[33mcommit 3bfd5fa60334a3117553864e15f94c3d7276d1ef[m
+Author: Lior Ganel <lior9631@gmail.com>
+Date:   Fri Oct 4 15:32:17 2019 +0300
+
+    Update lior.txt
+    
+    lior
+
+[33mcommit 782fd31825417257ce019b8534541a579bc5f17b[m
+Author: Lior Ganel <lior9631@gmail.com>
+Date:   Fri Oct 4 15:24:43 2019 +0300
+
+    lior
+
+[33mcommit 989f073e24d559f36682c0a63ed99988633140cc[m
+Merge: 9e84cc6 776b189
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Fri Oct 4 15:23:41 2019 +0300
+
+    sds
+
+[33mcommit 9e84cc6cc2556a07d8aa0db6a87e356eccb7a47b[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Fri Oct 4 15:22:42 2019 +0300
+
+    sds
+
+[33mcommit 776b189be804daf62d12086cc7517cd202ee8b4a[m
+Author: Lior Ganel <lior9631@gmail.com>
+Date:   Fri Oct 4 15:21:26 2019 +0300
+
+    lior
+
+[33mcommit 8103390b64a48c2dba9c5bdb8929f6ec84842a4b[m
+Author: Lior Ganel <lior9631@gmail.com>
+Date:   Fri Oct 4 15:16:36 2019 +0300
+
+    dfd
+
+[33mcommit 1d53ea66f08a7dc5da99fed22453c84da89fd5ff[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Fri Oct 4 13:53:36 2019 +0300
+
+    new
+
+[33mcommit 5337389e76fc84de2e212d03f879c1d4f52fb409[m
+Author: Alon Davidi <alon359@gmail.com>
+Date:   Fri Oct 4 13:48:21 2019 +0300
+
+    Create lior.txt
+    
+    aa
+
+[33mcommit eabe8d905cf53a55d8ba7826df085ec6a86adf45[m
+Author: lior <lior9631@gmail.com>
+Date:   Thu Oct 3 15:25:12 2019 +0300
+
+    first commit
