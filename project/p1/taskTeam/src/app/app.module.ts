@@ -1,10 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
+import { NgModule, Component } from '@angular/core';
+import {RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { NavBarComponent } from './home-page/nav-bar/nav-bar.component';
+import { Route } from '@angular/compiler/src/core';
+import { from } from 'rxjs';
 
+const appRoute: Routes = [
+  {path: '' , component: HomePageComponent}
+];
 
 @NgModule({
   declarations: [
@@ -13,7 +18,8 @@ import { NavBarComponent } from './home-page/nav-bar/nav-bar.component';
     NavBarComponent
    ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoute)
   ],
   providers: [],
   bootstrap: [AppComponent]

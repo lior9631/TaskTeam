@@ -1,8 +1,5 @@
-
-@media(max-width: var(--breakpoint-md))
-{
-  .btn{
-      color:green;
-  }
+@media(max-width: var(--breakpoint-md)) {
+    .btn {
+        color: green;
+    }
 }
-
