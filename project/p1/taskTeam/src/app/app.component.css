@@ -1,0 +1,8 @@
+ .image{
+         height:40em;
+         background-size:cover;
+          width: 100%;
+
+         background-image:url('../../pictures/team.jpg');
+         background-position:50% 50%;
+       }

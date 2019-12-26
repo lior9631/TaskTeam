@@ -6,6 +6,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavBarComponent } from './home-page/nav-bar/nav-bar.component';
 import { Route } from '@angular/compiler/src/core';
 import { from } from 'rxjs';
+import { LogInComponent } from './home-page/log-in/log-in.component';
 
 const appRoute: Routes = [
   {path: '' , component: HomePageComponent}
@@ -15,7 +16,8 @@ const appRoute: Routes = [
   declarations: [
     AppComponent,
     HomePageComponent,
-    NavBarComponent
+    NavBarComponent,
+    LogInComponent
    ],
   imports: [
     BrowserModule,
