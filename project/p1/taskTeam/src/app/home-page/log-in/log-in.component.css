@@ -1,0 +1,7 @@
+.image {
+    height: 40em;
+    background-size: cover;
+    width: 100%;
+    background-image: url('../../../assets/pictures/HomePic.jpg');
+    background-position: 50% 50%;
+}
