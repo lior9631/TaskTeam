@@ -9,6 +9,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavBarComponent } from './home-page/nav-bar/nav-bar.component';
 import { LogInComponent } from './home-page/log-in/log-in.component';
 import { SignUpComponent } from './home-page/sign-up/sign-up.component';
+import { EntryComponent } from './home-page/log-in/entry/entry/entry.component';
 
 
 const appRoute: Routes = [
@@ -21,7 +22,8 @@ const appRoute: Routes = [
     HomePageComponent,
     NavBarComponent,
     LogInComponent,
-    SignUpComponent
+    SignUpComponent,
+    EntryComponent
    ],
   imports: [
     BrowserModule,

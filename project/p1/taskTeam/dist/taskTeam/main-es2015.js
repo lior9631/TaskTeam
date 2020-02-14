@@ -326,7 +326,7 @@ function __importDefault(mod) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (" .image{\n         height:40em;\n         background-size:cover;\n          width: 100%;\n\n         background-image:url('team.jpg');\n         background-position:50% 50%;\n       }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkNBQUM7U0FDUSxXQUFXO1NBQ1gscUJBQXFCO1VBQ3BCLFdBQVc7O1NBRVosZ0NBQStDO1NBQy9DLDJCQUEyQjtPQUM3QiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiIC5pbWFnZXtcbiAgICAgICAgIGhlaWdodDo0MGVtO1xuICAgICAgICAgYmFja2dyb3VuZC1zaXplOmNvdmVyO1xuICAgICAgICAgIHdpZHRoOiAxMDAlO1xuXG4gICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOnVybCgnLi4vLi4vcGljdHVyZXMvdGVhbS5qcGcnKTtcbiAgICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246NTAlIDUwJTtcbiAgICAgICB9XG4iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (" .image {\n     height: 40em;\n     background-size: cover;\n     width: 100%;\n     background-image: url('HomePic.jpg');\n     background-position: 50% 50%;\n }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkNBQUM7S0FDSSxZQUFZO0tBQ1osc0JBQXNCO0tBQ3RCLFdBQVc7S0FDWCxvQ0FBOEQ7S0FDOUQsNEJBQTRCO0NBQ2hDIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIgLmltYWdlIHtcbiAgICAgaGVpZ2h0OiA0MGVtO1xuICAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAgICB3aWR0aDogMTAwJTtcbiAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCcuLi8uLi9zcmMvYXNzZXRzL3BpY3R1cmVzL0hvbWVQaWMuanBnJyk7XG4gICAgIGJhY2tncm91bmQtcG9zaXRpb246IDUwJSA1MCU7XG4gfSJdfQ== */");
 
 /***/ }),
 
