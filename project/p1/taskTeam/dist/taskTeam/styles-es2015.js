@@ -376,8 +376,8 @@ if (content.locals) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\lior9\‎Google Drive (lior_g@info.cts.org.il)‎\פרוייקט\ProjcetTeam\project\p1\taskTeam\src\styles.css */"./src/styles.css");
-module.exports = __webpack_require__(/*! C:\Users\lior9\‎Google Drive (lior_g@info.cts.org.il)‎\פרוייקט\ProjcetTeam\project\p1\taskTeam\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+__webpack_require__(/*! C:\Users\alon3\Desktop\TeamTask\project\p1\taskTeam\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\alon3\Desktop\TeamTask\project\p1\taskTeam\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
 
 
 /***/ })

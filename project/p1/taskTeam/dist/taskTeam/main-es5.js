@@ -39,7 +39,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <app-nav-bar></app-nav-bar>\n    </div>\n  </div>\n  <div class=\"row mt-3\">\n    <div class=\"col-xl-5\">\n    </div>\n    <div class=\"col-xl text-white \">\n      <div class=\"h1  mt-5 position-relative\" style=\"top: 20vh; left: 3vw; font-weight: bold; font-size: 70px;\">Wellcome\n      </div>\n    </div>\n  </div>\n</div>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <app-nav-bar></app-nav-bar>\n        </div>\n    </div>\n    <div class=\"row mt-3\">\n        <div class=\"col-xl-5\">\n        </div>\n        <div class=\"col-xl text-white \">\n            <div class=\"h1  mt-5 position-relative\" style=\"top: 20vh; left: 3vw; font-weight: bold; font-size: 70px;\">\n            </div>\n        </div>\n    </div>\n</div>");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/home-page/log-in/log-in.component.html": 
@@ -50,7 +50,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <app-nav-bar></app-nav-bar>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-3\">\n      <h1 class=\"text-white \" >Log-in is work</h1>\n    </div>\n  </div>\n</div>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col\">\n            <app-nav-bar></app-nav-bar>\n        </div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-3\">\n\n        </div>\n    </div>\n</div>");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/home-page/nav-bar/nav-bar.component.html": 
@@ -61,7 +61,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar sticky-top navbar-expand-lg navbar-light bg-light\">\r\n    <a class=\"navbar-brand \" style=\"font-family: Verdana, Geneva, Tahoma, sans-serif; \" href=\"# \">\r\n        <img src=\" \" width=\"30 \" height=\"30 \" class=\"d-inline-block align-top \" alt=\" \"> TaskTeam\r\n    </a>\r\n    <button class=\"navbar-toggler \" type=\"button \" data-toggle=\"collapse \" data-target=\"#navbarSupportedContent \" aria-controls=\"navbarSupportedContent \" aria-expanded=\"false \" aria-label=\"Toggle navigation \">\r\n    <span class=\"navbar-toggler-icon \"></span>\r\n  </button>\r\n\r\n    <div class=\"collapse navbar-collapse flex-row-reverse \" id=\"navbarSupportedContent \">\r\n        <ul class=\"navbar-nav \">\r\n            <li>\r\n                <a class=\"btn btn-outline-primary mr-1 mb-md-1 mb-sm-1 \" (click)=\"do() \" href=\"# \" role=\"button \">Log-In</a>\r\n            </li>\r\n            <li>\r\n                <a class=\"btn btn-primary mr-1 mb-md-1 mb-sm-1 \" href=\"# \" role=\"button \">Sign-up</a>\r\n            </li>\r\n        </ul>\r\n    </div>\r\n</nav>\r\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar sticky-top navbar-expand-lg navbar-light bg-light\">\n    <a class=\"navbar-brand \" style=\"font-family: Verdana, Geneva, Tahoma, sans-serif; \" href=\"# \">\n        <img src=\" \" width=\"30 \" height=\"30 \" class=\"d-inline-block align-top \" alt=\" \"> TaskTeam\n    </a>\n    <button class=\"navbar-toggler \" type=\"button \" data-toggle=\"collapse \" data-target=\"#navbarSupportedContent \" aria-controls=\"navbarSupportedContent \" aria-expanded=\"false \" aria-label=\"Toggle navigation \">\n    <span class=\"navbar-toggler-icon \"></span>\n  </button>\n\n    <div class=\"collapse navbar-collapse flex-row-reverse \" id=\"navbarSupportedContent \">\n        <ul class=\"navbar-nav \">\n            <li>\n                <a class=\"btn btn-outline-primary mr-1 mb-md-1 mb-sm-1 \" (click)=\"do() \" href=\"# \" role=\"button \">Log-In</a>\n            </li>\n            <li>\n                <a class=\"btn btn-primary mr-1 mb-md-1 mb-sm-1 \" href=\"# \" role=\"button \">Sign-up</a>\n            </li>\n        </ul>\n    </div>\n</nav>\n");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/home-page/sign-up/sign-up.component.html": 
@@ -383,7 +383,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = (" .image{\r\n         height:40em;\r\n         background-size:cover;\r\n          width: 100%;\r\n\r\n         background-image:url('team.jpg');\r\n         background-position:50% 50%;\r\n       }\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkNBQUM7U0FDUSxXQUFXO1NBQ1gscUJBQXFCO1VBQ3BCLFdBQVc7O1NBRVosZ0NBQStDO1NBQy9DLDJCQUEyQjtPQUM3QiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiIC5pbWFnZXtcclxuICAgICAgICAgaGVpZ2h0OjQwZW07XHJcbiAgICAgICAgIGJhY2tncm91bmQtc2l6ZTpjb3ZlcjtcclxuICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG5cclxuICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTp1cmwoJy4uLy4uL3BpY3R1cmVzL3RlYW0uanBnJyk7XHJcbiAgICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246NTAlIDUwJTtcclxuICAgICAgIH1cclxuIl19 */");
+            /* harmony default export */ __webpack_exports__["default"] = (" .image{\n         height:40em;\n         background-size:cover;\n          width: 100%;\n\n         background-image:url('team.jpg');\n         background-position:50% 50%;\n       }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkNBQUM7U0FDUSxXQUFXO1NBQ1gscUJBQXFCO1VBQ3BCLFdBQVc7O1NBRVosZ0NBQStDO1NBQy9DLDJCQUEyQjtPQUM3QiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiIC5pbWFnZXtcbiAgICAgICAgIGhlaWdodDo0MGVtO1xuICAgICAgICAgYmFja2dyb3VuZC1zaXplOmNvdmVyO1xuICAgICAgICAgIHdpZHRoOiAxMDAlO1xuXG4gICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOnVybCgnLi4vLi4vcGljdHVyZXMvdGVhbS5qcGcnKTtcbiAgICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246NTAlIDUwJTtcbiAgICAgICB9XG4iXX0= */");
             /***/ 
         }),
         /***/ "./src/app/app.component.ts": 
@@ -471,7 +471,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("@media(max-width: var(--breakpoint-md)) {\r\n    .btn {\r\n        color: green;\r\n    }\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS1wYWdlL2hvbWUtcGFnZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0k7UUFDSSxZQUFZO0lBQ2hCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9ob21lLXBhZ2UvaG9tZS1wYWdlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAbWVkaWEobWF4LXdpZHRoOiB2YXIoLS1icmVha3BvaW50LW1kKSkge1xyXG4gICAgLmJ0biB7XHJcbiAgICAgICAgY29sb3I6IGdyZWVuO1xyXG4gICAgfVxyXG59XHJcbiJdfQ== */");
+            /* harmony default export */ __webpack_exports__["default"] = ("@media(max-width: var(--breakpoint-md)) {\n    .btn {\n        color: green;\n    }\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS1wYWdlL2hvbWUtcGFnZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0k7UUFDSSxZQUFZO0lBQ2hCO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9ob21lLXBhZ2UvaG9tZS1wYWdlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAbWVkaWEobWF4LXdpZHRoOiB2YXIoLS1icmVha3BvaW50LW1kKSkge1xuICAgIC5idG4ge1xuICAgICAgICBjb2xvcjogZ3JlZW47XG4gICAgfVxufVxuIl19 */");
             /***/ 
         }),
         /***/ "./src/app/home-page/home-page.component.ts": 
@@ -667,7 +667,7 @@
           \***************************/
         /*! no static exports found */
         /***/ (function (module, exports, __webpack_require__) {
-            module.exports = __webpack_require__(/*! C:\Users\lior9\‎Google Drive (lior_g@info.cts.org.il)‎\פרוייקט\ProjcetTeam\project\p1\taskTeam\src\main.ts */ "./src/main.ts");
+            module.exports = __webpack_require__(/*! C:\Users\alon3\Desktop\TeamTask\project\p1\taskTeam\src\main.ts */ "./src/main.ts");
             /***/ 
         })
     }, [[0, "runtime", "vendor"]]]);
