@@ -14,8 +14,8 @@ import { EntryComponent } from './home-page/log-in/entry/entry/entry.component';
 
 const appRoute: Routes = [
   {path: '' , component: HomePageComponent},
-  {path: 'logIn', component: LogInComponent },
-  {path: 'logIn/entry', component: EntryComponent}
+  {path: 'login', component: LogInComponent },
+  {path: 'login/entry', component: EntryComponent}
 ];
 
 @NgModule({
