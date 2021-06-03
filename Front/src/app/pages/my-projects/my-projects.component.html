@@ -1,0 +1,49 @@
+<div class="layout-main">
+  <app-menu-login></app-menu-login>
+
+  <div class="container">
+    <h1 class="head header-page">My Projects</h1>
+
+    <!-- When the data is loaded -->
+    <section *ngIf="isLoading" class="d-flex align-items-center justify-content-center mt-4 mr-2">
+      <div class="spinner-border" style="width: 2rem; height: 2rem;" role="status">
+        <span class="sr-only">Loading, please wait...</span>
+      </div>
+      <p class="m-0 ml-2">Loading, please wait...</p>
+    </section>
+
+    <!-- No projects massage -->
+    <section *ngIf="dataProjects && !dataProjects.length && !isLoading" class="mt-2">
+      <p class="h2"> You have no projects yet</p>
+      <a href="/createProject">Create a new one here!</a>
+    </section>
+
+    <!-- Projects table -->
+    <table *ngIf="dataProjects && dataProjects.length && !isLoading" class="table">
+      <thead class="table-dark">
+        <tr>
+          <th>Title</th>
+          <th>Progress</th>
+          <th>Remain tasks</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let dataProject of dataProjects">
+          <td>{{dataProject.project.title}}</td>
+          <td>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" [ngStyle]="{'width':getProgress(dataProject.countTasks)}"
+                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                {{getProgress(dataProject.countTasks)}}
+              </div>
+              <span *ngIf="!dataProject.countTasks.doneTasks" class="ml-1 mt-2">0%</span>
+            </div>
+          </td>
+          <td>{{dataProject.countTasks.doneTasks}}/{{dataProject.countTasks.countTasks}}</td>
+          <td><a [href]="'/project/'+ dataProject.project._id" class="btn btn-primary">Open</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

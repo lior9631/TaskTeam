@@ -1,0 +1,30 @@
+<section class="table-responsive-lg">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>promission</th>
+        <th class="text-wrap">Invite status</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let member of projectMembers">
+        <td class="text-left">
+          <img class="mr-1"[src]="member.userID.imgUrl || './assets/user.jpg'" />
+          {{member.userID.fName }} {{member.userID.lName }}
+        </td>
+        <td>{{member.userID.email }}</td>
+        <td class="permission">
+          {{member.permission}}
+        </td>
+        <td class="text-wrap">
+          <span>{{getInvateStatus(member)}}</span>
+        </td>
+        <td><button *ngIf="!member.isIniviteConfrimed" class="btn btn-danger" type="button" 
+              (click)="onCancel(member._id)">Cancel</button></td>
+      </tr>
+    </tbody>
+  </table>
+</section>

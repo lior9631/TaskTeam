@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Chunkfive;
+  src: url(./assets/fonts/Chunkfive.otf);
+}
+@font-face {
+  font-family: NotoSansJP;
+  src: url(./assets/fonts/NotoSansJP.otf);
+}
+
+:root {
+  /* Main background */
+  --bgc-main: #87ceeb;
+  --bgc-menu: #292f4c;
+
+  /* Statuses colors */
+  --status-hold: #e97385;
+  --status-working: #ff9800;
+  --status-waiting: #579bfc;
+  --status-blocked: #e44258;
+  --status-done: #00c875;
+  --status-not-started: #757d83;
+
+  /* Priorities colors */
+  --priority-high: #bb0000;
+  --priority-medium: #e66808;
+  --priority-low: #177700;
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: auto;
+  margin: 0;
+}
+
+button {
+  line-height: normal;
+}
+
+.table {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Layout main */
+
+.layout-main {
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+
+/* Helpers */
+.clean-least {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.header-page {
+  font-family: Chunkfive;
+}

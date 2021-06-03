@@ -1,0 +1,8 @@
+.table {
+  text-align: center;
+}
+
+thead th {
+  vertical-align: middle;
+  padding: 5px;
+}

@@ -1,0 +1,83 @@
+<!-- Actions task button -->
+<td class="actions-task-td">
+  <div class="dropdown">
+    <button class="btn-actions" id="taskMenu" role="button" data-toggle="dropdown" aria-expanded="false">
+      <img src="./assets/three-dots-vertical.svg" />
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="taskMenu">
+      <li>
+        <button class="dropdown-item d-flex align-items-center" type="button" (click)="onRemoveTask()">
+          <img class="mr-1" src="./assets/trash.svg" />
+          <span>Remove task</span>
+        </button>
+      </li>
+      <li>
+        <button class="dropdown-item d-flex align-items-center" type="button" (click)="onEditTask()">
+          <img class="mr-1" src="./assets/pencil-square.svg" />
+          <span>Edit task</span>
+        </button>
+      </li>
+    </ul>
+  </div>
+</td>
+<!-- Title task -->
+<td class="title-task">{{task.title}}</td>
+<!-- Owner task -->
+<td class="td-owner">
+  <a   *ngIf="task.owner; else nonOwner" [href]="'/profile/' + task.owner._id" 
+    class="d-flex align-items-center justify-content-center">
+    <img class="mr-1" [src]="task.owner.imgUrl ? task.owner.imgUrl : './assets/profile.svg' ">
+    <p class="m-0 p-0">{{task.owner.fName}} {{task.owner.lName}}</p>
+  </a>
+  <ng-template #nonOwner>none</ng-template>
+</td>
+<!-- Status task -->
+<td>
+  <div class="status-drop dropdown">
+    <button class="btn-drop" [ngClass]="getStatusClass(task.status)" type="button" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false" data-offset="-11,0">
+      {{task.status}}
+    </button>
+    <div class="dropdown-menu status-drop-menu">
+      <button class="dropdown-item task-item status-hold" type="button" (click)="onStatusChange('on hold')">
+        On hold
+      </button>
+      <button class="dropdown-item task-item status-working" type="button" (click)="onStatusChange('working on it')">
+        Working on it
+      </button>
+      <button class="dropdown-item task-item status-done" type="button" (click)="onStatusChange('done')">
+        Done
+      </button>
+      <button class="dropdown-item task-item status-waiting" type="button"
+        (click)="onStatusChange('waiting for response')">
+        Waiting for response
+      </button>
+      <button class="dropdown-item task-item status-blocked" type="button" (click)="onStatusChange('blocked')">
+        Blocked
+      </button>
+    </div>
+  </div>
+</td>
+<!-- Priority task -->
+<td>
+  <div class="status-drop dropdown">
+    <button class="btn-drop" [ngClass]="getPriorityClass(task.priority)" type="button" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false" data-offset="-11,0">
+      {{task.priority}}
+    </button>
+    <div class="dropdown-menu status-drop-menu">
+      <button class="dropdown-item task-item priority-low" type="button" (click)="onPriorityChange('low')">
+        Low
+      </button>
+      <button class="dropdown-item task-item priority-medium" type="button" (click)="onPriorityChange('medium')">
+       Medium
+      </button>
+      <button class="dropdown-item task-item priority-high" type="button" (click)="onPriorityChange('high')">
+        High
+      </button>
+    </div>
+  </div>
+</td>
+<!-- Dates task -->
+<td>{{task.startDate | date:'dd/MM/yyyy'}}</td>
+<td>{{task.endDate | date:'dd/MM/yyyy'}}</td>

@@ -1,0 +1,18 @@
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr>
+      <th rowspan="2" colspan="2">Task name</th>
+      <th rowspan="2">Owner</th>
+      <th rowspan="2">Status</th>
+      <th rowspan="2">Priority</th>
+      <th colspan="2">Date</th>
+    </tr>
+    <tr>
+      <th>Start</th>
+      <th>End</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr app-row-task *ngFor="let task of tasks;let i= index;" [task]="task"></tr>
+  </tbody>
+</table>

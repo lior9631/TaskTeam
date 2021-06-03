@@ -1,0 +1,40 @@
+<div class="layout-main">
+  <app-menu-login></app-menu-login>
+  <div class="main-contain">
+
+    <section class="details">
+      <header>
+        <div class="user-img">
+          <img [src]="userProfile.imgUrl?userProfile.imgUrl:'../../../assets/user.jpg' " alt="User">
+        </div>
+        <div>
+          <div class="details-row">
+            <p class="user-name">{{userProfile.fName}} {{userProfile.lName}}</p>
+          </div>
+          <div class="details-row">
+            <p class="user-title">{{userProfile.title}}</p>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="details-row mb-2">
+          <img class="mr-1" src="./assets/telephone.svg" alt="telephone" />
+          <p class="title-info">Phone:</p>
+          <p class="info">{{userProfile.phone | phone}}</p>
+        </div>
+        <div class="details-row mb-2">
+          <img class="mr-1" src="./assets/email.svg" alt="email" />
+          <p class="title-info">Email:</p>
+          <p class="info">{{userProfile.email}}</p>
+        </div>
+      </main>
+      <footer>
+        <button class="btn btn-primary mr-2" (click)="onBack()">Back</button>
+        <a *ngIf="userProfile._id===userLogged._id" class="btn btn-primary" href="/setting">Edit profile</a>
+
+      </footer>
+    </section>
+  </div>
+
+
+</div>
