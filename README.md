@@ -2,7 +2,7 @@
 Team task manager application
 
 ## About The Project
-I made this project with my classmate for my final project in college.<br>
+I created this project with my classmate for my final project in college.<br>
 <br>
 The purpose of the application is to allow team members to share tasks in a simple and quick.<br>
 The app allows team members to create a collaborative project and share tasks with each other, update the status of each task and track the progress of the project as a whole.
